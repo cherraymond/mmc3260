@@ -1,0 +1,84 @@
+/*              color          */
+
+body {
+    background-color: #FFC7F9;}
+h1 {
+    color: #558FE5;}
+h2 {
+    color: black;}
+h3 {
+    color: White;}
+p.sidebar {
+    color: white;}
+p.article {
+    color: black;}
+
+
+/*             font           */
+
+body {
+    font-family: serif;
+    font-size: 12px}
+h1 {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 32px}
+h2 {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 18px}
+h3 {
+    font-family: Georgia, Times, serif;         
+    font-size: 14px}
+p {
+    font-size: 12px;}
+
+
+
+/*               text alignment          */
+
+h1 {
+        position: absolute;
+        top: 0px;
+        left 200px;
+        width: 75%}
+
+
+/*              header links             */
+
+table.headerlinks {
+   margin: 10px }
+
+
+/*              body columns            */
+
+.column1of3 {
+    float: left;
+    width: 200px;
+    margin: 10px;
+    background-color: #558FE5;}
+.column2of3 {
+    float: left;
+    width: 500px;
+    margin: 10px;
+    background-color: #81D4FB;}
+.column3of3 {
+    float: left;
+    width: 200px;
+    margin: 10px;
+    background-color: #558FE5;}
+
+
+/*              links            */
+
+table.navigation {
+    margin: 10px
+    font-size: 10px}
+a: link{
+    color: grey;
+    text-decoration: none;}
+a: visited {
+    color: black;}
+a: hover{
+    color: silver;
+    text-decoration: underline;}
+a: active{
+    color: darkcyan;}
