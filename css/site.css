@@ -8,17 +8,18 @@ h2 {
     color: black;}
 h3 {
     color: White;}
-p.sidebar {
+p.aside {
     color: white;}
 p.article {
     color: black;}
+.aside {
+    background-color: #558FE5;}
+.article {
+    background-color: #81D4FB;}
 
 
 /*             font           */
 
-body {
-    font-family: serif;
-    font-size: 12px}
 h1 {
     font-family: 'Monsieur La Doulaise', cursive;
     font-size: 32px}
@@ -32,23 +33,17 @@ p {
     font-size: 12px;}
 
 
-
 /*               text alignment          */
 
 h1 {
-        position: absolute;
-        top: 0px;
-        left 200px;
+        left 100px;
         width: 75%}
 
 
-/*              header links             */
-
-table.headerlinks {
-   margin: 10px }
 
 
-/*              body columns            */
+
+/*               body columns            */
 
 .column1of3 {
     float: left;
@@ -57,20 +52,39 @@ table.headerlinks {
     background-color: #558FE5;}
 .column2of3 {
     float: left;
-    width: 500px;
-    margin: 10px;
-    background-color: #81D4FB;}
+    width: 450px;
+    margin: 10px;}
 .column3of3 {
     float: left;
     width: 200px;
-    margin: 10px; 
+    margin: 10px;}
 
 
-/*              links            */
+/*                   links               */
+    
+    nav{
+        border: 0;
+        width: 100%;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    nav li{
+        display: inline;
+        margin-right: 10px;
+    }
+.footer {
+    float:inherit;
+    width: 450px;
+    margin: 30%;}
 
 table.navigation {
-    margin: 10px
-    font-size: 10px}
+    margin: 10px;
+    font-size: 10px;}
 a: link{
     color: grey;
     text-decoration: none;}
@@ -81,3 +95,33 @@ a: hover{
     text-decoration: underline;}
 a: active{
     color: darkcyan;}
+
+
+@media screen and (max-width: 600px) {
+    
+    body{
+        padding: 3%;
+    }
+    
+    nav{
+        border: 0;
+        width: 100%;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    nav li{
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    .floaters {
+        clear: left;
+        margin-left: 0;
+        width: 100%;
+    }
+}
